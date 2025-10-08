@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌲 LinkForest – A Linktree Clone
 
-## Getting Started
+**LinkForest** is a customizable link management platform that lets users create a single profile page to share all their important links — similar to Linktree.  
+Built with **Next.js**, **MongoDB**, and **TailwindCSS**, it offers both a clean UI and scalable backend.
 
-First, run the development server:
+---
 
+## 📸 Demo
+
+![Home](./screenshots/screenshot1.png)
+
+---
+
+## 🚀 Features
+
+- 🌐 Create your own unique profile handle 
+- 🔗 Add unlimited links
+- 🧩 Custom titles, URLs
+- 🎨 Responsive, minimalist UI built with TailwindCSS
+- 💾 MongoDB backend for persistent storage
+- ⚡ Server-side rendering for faster load and better SEO
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|-------------|
+| Frontend | Next.js (React 18, App Router) |
+| Styling | TailwindCSS |
+| Database | MongoDB (via Mongoose or MongoDB Driver) |
+
+---
+
+## 📂 Folder Structure
+
+linkforest/
+│
+├── app/ # Next.js app router pages
+├── components/ # Reusable UI components
+├── lib/ # Database connection helpers
+├── public/ # Static assets (icons, images)
+└── README.md
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Daksh-Official/linkforest.git
+cd linkforest
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Install dependencies
+```
+npm install
+```
+### Run the devlopment Server
+```
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+App will start on →
+👉 http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔒 Security Notes
+1. This project uses a local MongoDB instance by default.
+2. Data is shared among all users and not isolated per account.
+3. Do not use this in production without proper authentication.
+4. Use MongoDB Atlas + NextAuth (or JWT) to enable secure multi-user data separation.
 
-## Learn More
+## 🧠 How It Works
+=> User creates a unique handle (like @daksh).
+=> The app stores their profile and links in MongoDB.
+=> Visitors can access the user’s public page at /@handle.
+=> Each profile dynamically loads its links from the database.
 
-To learn more about Next.js, take a look at the following resources:
+## 🖼️ Screenshots
+![page2](./screenshots/screenshot2.png)
+![page3](./screenshots/screenshot3.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Future Improvements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🔑 Add authentication (NextAuth or custom JWT)
+🖼️ Enable profile customization (themes, backgrounds, profile pictures)
+📊 Add analytics (link clicks, view count)
+☁️ Deploy backend on Vercel + MongoDB Atlas
+💬 Add bio and social media integration
 
-## Deploy on Vercel
+## 🤝 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Contributions are always welcome!
+2. Fork the repo
+3. Create your feature branch
+4. Commit your changes
+5. Push and open a pull request
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📜 License
+This project is licensed under the MIT License.
+
+## 💡 Inspiration
+LinkForest was inspired by Linktree and created to learn Next.js + MongoDB integration and server-side rendering.
+
+Made with ❤️ by Daksh
