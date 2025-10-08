@@ -34,12 +34,12 @@ Built with **Next.js**, **MongoDB**, and **TailwindCSS**, it offers both a clean
 
 ## 📂 Folder Structure
 
-linkforest/
-│
-├── app/ # Next.js app router pages
-├── components/ # Reusable UI components
-├── lib/ # Database connection helpers
-├── public/ # Static assets (icons, images)
+linkforest/<br>
+│<br>
+├── app/ # Next.js app router pages<br>
+├── components/ # Reusable UI components<br>
+├── lib/ # Database connection helpers<br>
+├── public/ # Static assets (icons, images)<br>
 └── README.md
 
 ---
@@ -71,9 +71,9 @@ App will start on →
 4. Use MongoDB Atlas + NextAuth (or JWT) to enable secure multi-user data separation.
 
 ## 🧠 How It Works
-=> User creates a unique handle (like @daksh).
-=> The app stores their profile and links in MongoDB.
-=> Visitors can access the user’s public page at /@handle.
+=> User creates a unique handle (like @daksh).<br>
+=> The app stores their profile and links in MongoDB.<br>
+=> Visitors can access the user’s public page at /@handle.<br>
 => Each profile dynamically loads its links from the database.
 
 ## 🖼️ Screenshots
@@ -82,10 +82,10 @@ App will start on →
 
 ## ✨ Future Improvements
 
-🔑 Add authentication (NextAuth or custom JWT)
-🖼️ Enable profile customization (themes, backgrounds, profile pictures)
-📊 Add analytics (link clicks, view count)
-☁️ Deploy backend on Vercel + MongoDB Atlas
+🔑 Add authentication (NextAuth or custom JWT)<br>
+🖼️ Enable profile customization (themes, backgrounds, profile pictures)<br>
+📊 Add analytics (link clicks, view count)<br>
+☁️ Deploy backend on Vercel + MongoDB Atlas<br>
 💬 Add bio and social media integration
 
 ## 🤝 Contributing
