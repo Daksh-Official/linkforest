@@ -7,7 +7,7 @@ Built with **Next.js**, **MongoDB**, and **TailwindCSS**, it offers both a clean
 
 ## 📸 Demo
 
-![Home](./screenshots/screenshot1.png)
+![Home](https://github.com/Daksh-Official/linkforest/blob/main/screenshots/screenshot1.png?raw=true)
 
 ---
 
@@ -77,8 +77,8 @@ App will start on →
 => Each profile dynamically loads its links from the database.
 
 ## 🖼️ Screenshots
-![page2](./screenshots/screenshot2.png)
-![page3](./screenshots/screenshot3.png)
+![page2](https://github.com/Daksh-Official/linkforest/blob/main/screenshots/screenshot2.png?raw=true)
+![page3](https://github.com/Daksh-Official/linkforest/blob/main/screenshots/screenshot3.png?raw=true)
 
 ## ✨ Future Improvements
 
