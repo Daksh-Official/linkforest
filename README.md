@@ -56,6 +56,10 @@ cd linkforest
 ```
 npm install
 ```
+### Setup Enviorment Variables
+- MONGODB_URI = mongodb://localhost:27017/
+- NEXT_PUBLIC_URL = http://localhost:3000/
+
 ### Run the devlopment Server
 ```
 npm run dev
